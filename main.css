@@ -1,0 +1,23 @@
+h1, p, div, .templates, .error {
+	position: relative;
+	text-align: center;
+}
+
+div {
+	margin-top: 50px;
+}
+
+
+
+.result {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 0 auto 1em auto;
+	text-align: left;
+	width: 500px;
+	height: 300px;
+}
+
+.hidden {
+	display: none;
+}

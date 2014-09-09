@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stackoverflow Top Answerers</title>
+
+	<link rel="stylesheet" href="main.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Stackoverflow Top Answerers</h1>
+		<p>This program will let you choose a topic from Stackoverflow and display the top answerers for the particular topic.</p>
+	</header>
+	<section>
+		<div>
+			<form class="get-topanswerers" onsubmit="return false;">
+				<input type="text" placeholder="e.g., jQuery" name="answerers" size="30"  required>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+
+		<div class="results-container">
+			<div class="search-results"></div>
+			<div class="results">
+		</div>
+
+		<div class="templates hidden">
+			<dl class="result answerer">
+				<dt>Answerer</dt>
+					<dd class="answerer-name"><a href="" target="_blank"></a></dd>
+				<dt>Avatar</dt>
+					<dd class="answerer-image"></dd>
+				<dt>Reputation</dt>
+					<dd class="reputation"></dd>
+				<dt>Score</dt>
+					<dd class="score"></dd>
+			</dl>
+			<div class="error">
+				<p>Something went wrong with your request. Here is what we know:</p>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
