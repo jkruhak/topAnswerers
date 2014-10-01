@@ -3,6 +3,7 @@ $(document).ready(function() {
 		$(".results").html("");
 		var topAnswerers = $(this).find("input[name='answerers']").val();
 		getTopAnswerers(topAnswerers);
+		$("input[name='answerers']").val("");
 	});
 });
 
