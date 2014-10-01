@@ -1,13 +1,30 @@
-h1, p, div, .templates, .error {
+body, h1, #explanation, p, div, .templates, .error {
 	position: relative;
 	text-align: center;
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
 }
 
 div {
 	margin-top: 50px;
 }
 
+.left {
+	float: left;
+}
 
+.stack-image {
+	background: url('images/stack-icon.png') no-repeat center center;
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+	margin-right: 1em;
+	margin-top: -2px;
+	border-radius: 5px;
+}
 
 .result {
 	border: 1px solid black;
